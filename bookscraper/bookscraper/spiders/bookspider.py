@@ -10,7 +10,7 @@ class BookspiderSpider(scrapy.Spider):
         'FEEDS': {
             'booksdata.json': {'format': 'json', 'overwrite': True}
         }
-    }    
+    }
         
 
     def parse(self, response):
